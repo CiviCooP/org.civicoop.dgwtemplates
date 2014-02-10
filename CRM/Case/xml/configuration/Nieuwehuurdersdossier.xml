@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<CaseType>
+    <name>Dossier nieuwe huurder</name>
+    <ActivityTypes>
+        <ActivityType>
+            <name>Open Case</name>
+            <max_instances>1</max_instances>
+        </ActivityType>
+        <ActivityType>
+            <name>Adverteren eenheid</name>
+        </ActivityType>
+        <ActivityType>
+            <name>Selecteren kandidaat</name>
+        </ActivityType>
+        <ActivityType>
+            <name>Plannen bezichtiging</name>
+        </ActivityType>
+        <ActivityType>
+            <name>Versturen aanbiedingsbrief</name>
+        </ActivityType>
+        <ActivityType>
+            <name>Controleren gegevens compleet</name>
+        </ActivityType>
+        <ActivityType>
+            <name>Voorbereiden contract</name>
+        </ActivityType>
+        <ActivityType>
+            <name>Tekenen contract</name>
+        </ActivityType>
+        <ActivityType>
+            <name>Afmelden woonkeus</name>
+        </ActivityType>
+	<ActivityType>
+            <name>Close Case</name>
+        </ActivityType>
+    </ActivityTypes>
+    <ActivitySets>
+        <ActivitySet>
+            <name>standard_timeline</name>
+            <label>Standaard Tijdlijn</label>
+            <timeline>true</timeline>
+            <ActivityTypes>
+                <ActivityType>
+                    <name>Open Case</name>
+                    <status>Completed</status>
+                </ActivityType>
+            </ActivityTypes>
+        </ActivitySet>
+    </ActivitySets> 
+    <CaseRoles>
+        <RelationshipType><name>Dossiermanager</name><creator>1</creator><manager>1</manager></RelationshipType>
+    	<RelationshipType><name>Verhuurconsulent</name></RelationshipType>
+    </CaseRoles>
+</CaseType>
