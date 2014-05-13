@@ -4,9 +4,9 @@
   <name>Dossier opzegging huurcontract</name>
   <ActivityTypes>
     <ActivityType><name>Open Case</name><max_instances>1</max_instances></ActivityType>
-	<ActivityType><name>Adviesgesprek</name></ActivityType>
+	<ActivityType><name>adviesgesprek_huuropzegging</name></ActivityType>
         <ActivityType><name>Nakijken puntprijs</name></ActivityType>
-	<ActivityType><name>Eindgesprek</name></ActivityType>
+	<ActivityType><name>eindgesprek_huuropzegging</name></ActivityType>
         <ActivityType><name>Afronden huuropzegging</name></ActivityType>
 	<ActivityType><name>Close Case</name></ActivityType>
   </ActivityTypes>
