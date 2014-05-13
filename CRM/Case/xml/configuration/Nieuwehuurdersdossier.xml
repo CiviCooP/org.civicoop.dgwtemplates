@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 
 <CaseType>
-    <name>Dossier nieuwe huurder</name>
+    <name>NieuweHuurder</name>
     <ActivityTypes>
-        <ActivityType>
-            <name>Open Case</name>
-            <max_instances>1</max_instances>
-        </ActivityType>
-        <ActivityType>
-            <name>Adverteren eenheid</name>
-        </ActivityType>
-        <ActivityType>
-            <name>Selecteren kandidaat</name>
-        </ActivityType>
+    	<ActivityType><name>Open Case</name><max_instances>1</max_instances></ActivityType>
         <ActivityType>
             <name>Plannen bezichtiging</name>
         </ActivityType>
