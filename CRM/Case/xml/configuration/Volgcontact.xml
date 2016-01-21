@@ -38,25 +38,25 @@
         <ActivityType>
           <name>Evaluatie 1</name>
           <reference_activity>Start planning</reference_activity>
-          <reference_offset>1</reference_offset>
+          <reference_offset>183</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
         <ActivityType>
           <name>Evaluatie 2</name>
           <reference_activity>Start planning</reference_activity>
-          <reference_offset>183</reference_offset>
+          <reference_offset>365</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
         <ActivityType>
           <name>Evaluatie 3</name>
           <reference_activity>Start planning</reference_activity>
-          <reference_offset>365</reference_offset>
+          <reference_offset>548</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
         <ActivityType>
           <name>Evaluatie 4</name>
           <reference_activity>Start planning</reference_activity>
-          <reference_offset>548</reference_offset>
+          <reference_offset>730</reference_offset>
           <reference_select>newest</reference_select>
         </ActivityType>
       </ActivityTypes>
